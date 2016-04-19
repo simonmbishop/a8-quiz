@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3;
+}
+
+strong {
+  font-weight: 900;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 strong {
+  color: #e74c3c;
+}
+
+.score-title {
+ 
+  font-size: 32px;
+  text-align: center;
+  opacity: .5;
+  margin-bottom: 30px;
+
+}
+
+.so-far {
+  font-size: 32px;
+  text-align: center;
+  opacity: .5;
+  margin-bottom: 30px;
+}
+
+.cap {
+  display: none;
+  color: #e74c3c;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+} 
+
+.correct {
+  font-size: 32px;
+  color: green;
+}
+
+.incorrect {
+  font-size: 32px;
+  color: #e74c3c;
+}
+
+.question {
+  display: none;
+}
+
+#start-button {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    font-size: 25px;
+    color: white;
+}
+
+#timer {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.next-button {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    font-size: 25px;
+    color: white;
+    display: block;
+    display: none;
+}
+
+.question2 {
+  display: none;
+}
+
+.form3 {
+  display: none;
+}
+
